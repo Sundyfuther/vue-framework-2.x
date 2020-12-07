@@ -19,7 +19,7 @@ module.exports = {
   runtimeCompiler: true,
   chainWebpack: (config) => {
     const types = ["vue-modules", "vue", "normal-modules", "normal"];
-    types.forEach((type) => addStyleResource(config.module.rule("stylus").oneOf(type)));
+    types.forEach((type) => addStyleResource(config.module.rule("scss").oneOf(type)));
   },
   // configureWebpack: (config) => {
   //   // 生产环境相关配置

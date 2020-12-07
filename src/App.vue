@@ -35,8 +35,6 @@ export default {
 <style lang="scss">
 // @import url("./assets/css/reset");
 #app {
-  height: 100%;
-  min-height: 29rem;
   background: #f3f4f6;
 
   .slide-right-enter-active,
